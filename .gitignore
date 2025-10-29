@@ -1,0 +1,103 @@
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# Arduino
+*.elf
+*.hex
+*.bin
+*.map
+build/
+.build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.log
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+android/local.properties
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/key.properties
+*.jks
+*.keystore
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+
+# Hardware design files (keep source, ignore outputs)
+*.brd.bak
+*.sch.bak
+gerbers/
+*.zip
+
+# 3D printing
+*.gcode
+*.3mf
+
+# Documentation builds
+docs/_build/
+docs/.buildinfo
+
+# Secrets and credentials
+secrets.h
+config_private.h
+*.pem
+*.key
+credentials.json
+
+# Test outputs
+test-results/
+coverage/
+*.coverage
+
+# Compiled firmware
+*.elf
+*.bin
+*.hex
+*.map
