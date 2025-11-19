@@ -1,0 +1,52 @@
+name: audio_player_remote
+description: Audio player with time-linked notes and ESP32 BLE remote control
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # Audio Playback
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+  audio_session: ^0.1.18
+  
+  # BLE Communication
+  flutter_blue_plus: ^1.31.9
+  
+  # Local Storage
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # JSON Serialization
+  json_annotation: ^4.8.1
+  
+  # UI Components
+  cupertino_icons: ^1.0.6
+  file_picker: ^6.1.1
+  
+  # Utilities
+  uuid: ^4.2.2
+  intl: ^0.18.1
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - assets/

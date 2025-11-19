@@ -93,19 +93,24 @@ VI_AT/
 
 ### Mobile App Setup (Flutter)
 
-> **Note**: Full Flutter implementation coming soon. See `Remote_integration.md` for mobile integration architecture.
+✅ **Flutter app is now available!** See [`flutter_app/`](flutter_app/) directory.
 
 #### Prerequisites
 - Flutter SDK 3.x+
 - Android Studio / Xcode (for mobile development)
 - Device with BLE support
 
-#### Quick Setup (Once Available)
+#### Quick Setup
 ```bash
 cd flutter_app
 flutter pub get
 flutter run
 ```
+
+For detailed instructions, see:
+- [Flutter App README](flutter_app/README.md)
+- [Setup Guide](flutter_app/SETUP_GUIDE.md)
+- [Quick Start](flutter_app/QUICK_START.txt)
 
 ## 🏗️ Architecture
 

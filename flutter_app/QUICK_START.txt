@@ -1,0 +1,79 @@
+# Quick Start - Flutter App
+
+## 5-Minute Setup
+
+### 1. Install Flutter
+
+**Windows:**
+```powershell
+# Download Flutter SDK from https://flutter.dev
+# Extract to C:\flutter
+# Add to PATH: C:\flutter\bin
+
+flutter doctor
+```
+
+**macOS/Linux:**
+```bash
+# Download Flutter SDK from https://flutter.dev
+# Extract and add to PATH
+
+export PATH="$PATH:/path/to/flutter/bin"
+flutter doctor
+```
+
+### 2. Setup Project
+
+```bash
+cd flutter_app
+flutter pub get
+```
+
+### 3. Run App
+
+**Android:**
+```bash
+flutter run -d android
+```
+
+**iOS (macOS only):**
+```bash
+cd ios && pod install && cd ..
+flutter run -d ios
+```
+
+## First Time Use
+
+1. **Grant Permissions**: Allow Bluetooth, Location, and Storage when prompted
+2. **Load Audio**: Tap "Select Audio File" and choose an MP3/M4A file
+3. **Play**: Tap the play button
+4. **Add Note**: Switch to Notes tab and tap the + button
+5. **Pair Remote**: Tap Bluetooth icon → Scan → Connect to "AudioRemote"
+
+## Common Issues
+
+**No devices found?**
+```bash
+flutter devices
+# Connect phone and enable USB debugging
+```
+
+**Build errors?**
+```bash
+flutter clean
+flutter pub get
+flutter run
+```
+
+**Bluetooth not working?**
+- Enable Bluetooth
+- Enable Location (Android 12+)
+- Grant all permissions
+
+## Full Documentation
+
+See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed instructions.
+
+---
+
+**Need help?** Check the troubleshooting section in SETUP_GUIDE.md
