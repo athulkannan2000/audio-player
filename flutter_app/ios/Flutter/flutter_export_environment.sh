@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=C:\Users\athul\Athul\Software_env\flutter"
-export "FLUTTER_APPLICATION_PATH=C:\Users\athul\Athul\Projects\AT_for_VI\audio-player\flutter_app"
+export "FLUTTER_ROOT=C:\flutter\flutter"
+export "FLUTTER_APPLICATION_PATH=F:\Infinity\02_Work\01_Projects\AT-for-VI\audio-player\flutter_app"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
